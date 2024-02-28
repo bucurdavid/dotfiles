@@ -30,6 +30,7 @@ alias gco="git checkout"
 alias gb="git branch"
 alias gs='git status -sb'
 alias gac="git add -A && git commit -m"
+alias gp="git push"
 
 
 #docker
