@@ -1,8 +1,3 @@
-#!/usr/bin/env bash
-
-echo "Loading aliases"
-
-#Easier navigation: .., ..., ...., ..... 
 
 alias ..="cd .."
 alias ...="cd ../.."
