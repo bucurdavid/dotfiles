@@ -33,7 +33,8 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 rm -rf $HOME/.p10k.zsh
 ln -s $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
 
-./aliases.sh >> ~/.zshrc
+# append aliases.zsh to .zshrc
+cat $HOME/.dotfiles/aliases.zsh >> $HOME/.zshrc
 
 source ~/.zshrc
 
