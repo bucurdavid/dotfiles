@@ -8,8 +8,12 @@ alias .....="cd ../../../.."
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias dc="cd ~/Documents"
+
+# default dev folder
 alias dev="cd ~/dev"
 
+#solana dev
+alias sol-dev="cd ~/dev/sol"
 
 
 #git 
@@ -39,3 +43,16 @@ alias ni="npm install"
 alias ns="npm run start"
 alias nt="npm run test"
 alias nb="npm run build"
+
+
+#mvx
+
+alias scb="sc-meta all build"
+alias ct="cargo test"
+alias cb="cargo build"
+
+
+#sol
+
+alias sol="solana"
+alias ab="anchor build"

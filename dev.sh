@@ -29,6 +29,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 # multiversx
 pipx install multiversx-sdk-cli --force
 
+#solana
+sh -c "$(curl -sSfL https://release.solana.com/v1.18.4/install)"
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+
 pipx ensurepath
 
 
@@ -37,3 +41,5 @@ mxpy deps install all
 # install global npm packages
 npm install -g ts-node
 npm install -g npm-check-updates
+
+

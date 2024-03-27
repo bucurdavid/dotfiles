@@ -118,13 +118,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# bun completions
-[ -s "/Users/bucurdavid/.bun/_bun" ] && source "/Users/bucurdavid/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH=$HOME/multiversx-sdk:$PATH
-
 # Created by `pipx` on 2024-02-28 20:52:07
 export PATH="$PATH:/Users/bucurdavid/.local/bin"
