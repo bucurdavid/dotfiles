@@ -64,4 +64,7 @@ alias sol="solana"
 alias ab="anchor build"
 alias ai="anchor init"
 alias ad="anchor deploy"
+alias at="anchor test"
+# at command exists in mac
+alias atcmd='/usr/bin/at'
 
