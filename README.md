@@ -5,7 +5,7 @@ Update macOS to the latest version with the App Store
 
 Generate a new public and private SSH key by running:
 
-curl https://raw.githubusercontent.com/michavie/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
+curl https://raw.githubusercontent.com/bucurdavid/dotfiles/refs/heads/main/ssh.sh | sh -s "<your-email-address>"
 Clone this repo to ~/dotfiles with:
 
 git clone git@github.com:bucurdavid/dotfiles.git ~/dotfiles
