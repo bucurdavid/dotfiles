@@ -48,6 +48,13 @@ alias ns="npm run start"
 alias nt="npm run test"
 alias nb="npm run build"
 
+#pnpm 
+
+alias pi="pnpm install"
+alias ps="pnpm start"
+alias pt="pnpm test"
+alias pb="pnpm build"
+
 
 #mvx
 
